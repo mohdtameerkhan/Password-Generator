@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+:root{
+    --primary-bg-color: #97BC62;
+    --secondary-text-color:#2C5F2D;
+    --no-option-color:  #E7E8D1;
+}
+
+body
+{
+    background-color: #97BC62;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.container
+{
+    width: 90%;
+    max-width: 430px;
+    margin-left: 100px;
+    line-height: 50px;
+    
+}
+.container h1
+{
+    color: var(--no-option-color);
+    font-size: 50px;
+    
+}
+h2{
+    color: var(--secondary-text-color);
+    font-size: 40px;
+    /* border-bottom: 2px solid; */
+    margin-bottom: 20px;
+}
+
+.display{
+    background-color:var(--no-option-color) ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10px;
+    border-radius: 5px;
+    
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: var(--no-option-color);
+} 
+.display i{
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+.container button{
+    padding: 8px 13px;
+    background-color: var(--secondary-text-color);
+    color: var(--no-option-color);
+    border: none;
+    font-size: small;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
